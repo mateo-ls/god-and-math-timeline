@@ -1,0 +1,28 @@
+.root {
+	padding: 5px;
+	display: flex;
+	position: relative;
+}
+
+.content-section {
+	overflow: hidden;
+	width: 50%;
+	left: 50%;
+	transform: translateX(110%);
+	transition: transform 250ms, flex-shrink 250ms;
+	position: absolute;
+	height: fit-content;
+	position: sticky;
+
+	&-open {
+		flex-shrink: 0;
+		position: relative;
+		transform: none;
+		visibility: visible !important;
+		left: 0;
+	}
+
+	&-loaded {
+		display: initial;
+	}
+}

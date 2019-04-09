@@ -1,0 +1,28 @@
+.timeline-root {
+	margin-left: 10px;
+	width: 100%;
+	transition: width 250ms;
+
+	&-content-open {
+		width: 50%;
+	}
+
+	.timeline-element {
+		cursor: pointer;
+
+		.title {
+			font-family: 'Work Sans';
+			margin: 5px 0;
+		}
+		
+		.subtitle {
+			font-family: 'Raleway';
+			margin: 10px 0 15px;
+			font-weight: 100;
+		}
+
+		&:hover .title {
+			text-decoration: underline;
+		}
+	}
+}
