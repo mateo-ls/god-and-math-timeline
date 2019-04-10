@@ -1,4 +1,19 @@
 .root {
+	.hero-container {
+		height: 300px;
+		display: flex;
+		align-items: flex-end;
+		padding: 20px;
+		background-size: cover;
+
+		.hero-title {
+			color: #FEFEFE;
+			font-family: 'Work Sans';
+			font-size: 60px;
+			margin: 0 10px;
+		}
+	}
+
 	.content {
 		padding: 20px;
 
@@ -9,6 +24,22 @@
 		h2, h3, h4, h5, h6 {
 			font-family: 'Raleway';
 			font-weight: 100;
+		}
+
+		p {
+			font-family: 'Karma';
+			text-indent: 2em;
+		}
+
+		blockquote {
+			padding: 0 10px;
+			border-left: solid 4px #A7A7A7;
+			
+			p {
+				color: #7D7D7D;
+				font-style: italic;
+				text-indent: 0;
+			}
 		}
 	}
 }

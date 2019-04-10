@@ -10,6 +10,8 @@ export default class App extends React.Component {
 		contentOpen: false,
 		loaded: false,
 		content: '',
+		heroUrl: '',
+		heroTitle: '',
 	}
 
 	componentDidMount = () => {
@@ -21,10 +23,12 @@ export default class App extends React.Component {
 		);
 	}
 
-	openArticle = content => {
+	openArticle = (content, heroUrl, heroTitle) => {
 		this.setState({
 			content,
 			contentOpen: true,
+			heroUrl,
+			heroTitle,
 		});
 	}
 
@@ -33,6 +37,8 @@ export default class App extends React.Component {
 			contentOpen,
 			loaded,
 			content,
+			heroUrl,
+			heroTitle,
 		} = this.state;
 
 		return (
@@ -60,6 +66,8 @@ export default class App extends React.Component {
 					>
 						<Content
 							source={content}
+							heroUrl={heroUrl}
+							heroTitle={heroTitle}
 						/>
 					</div>
 					:

@@ -1,5 +1,3 @@
-# Johannes Kepler
-
 ## Who was Kepler?
 
 Johannes Kepler was born december 27th 1571 to Katherina and Heinrich Kepler. His childhood was recorded as less than pleasant. His mother was argumentative and his father was an immoral mercenary. He also almost died from smallpox as a child. Despite the hardships of his youth, he was offered a scholarship to the University of Tübingen where he was first introduced to the Copernicus model of the solar system despite living in a time where those who held such beliefs were persecuted by the Catholic church. Even in living in such a time, Kepler retained a strong faith and desired to see the Catholic church corrected and improved. He is most famous for his three laws describing planetary motion.

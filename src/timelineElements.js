@@ -29,6 +29,8 @@ export default [
 		date: '1571 AD - 1630 AD',
 		icon: GiRingedPlanet,
 		article: keplerArticle,
+		heroUrl: 'https://res.cloudinary.com/josephdangerstewart/image/upload/v1554924815/god-and-math/planets.jpg',
+		heroTitle: 'Johannes Kepler',
 	},
 	{
 		title: 'Math as a Description of Reality',

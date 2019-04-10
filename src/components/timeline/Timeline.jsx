@@ -7,7 +7,15 @@ import timelineElements from '../../timelineElements';
 import styles from './styles.less';
 
 export default class Timeline extends React.Component {
-	renderTimelineElement = ({ title, subtitle, date, icon: Icon, article }, index) => {
+	renderTimelineElement = ({
+		title,
+		subtitle,
+		date,
+		icon: Icon,
+		article,
+		heroUrl,
+		heroTitle
+	}, index) => {
 		const { openArticle } = this.props;
 		return (
 			<VerticalTimelineElement
@@ -15,7 +23,7 @@ export default class Timeline extends React.Component {
 				icon={<Icon />}
 				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 				key={index}
-				onClick={() => openArticle(article)}
+				onClick={() => openArticle(article, heroUrl, heroTitle)}
 				className={styles.timelineElement}
 			>
 				<div
