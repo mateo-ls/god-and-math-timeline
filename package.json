@@ -32,6 +32,7 @@
     "react-dom": "^16.8.4",
     "react-icons": "^3.5.0",
     "react-markdown": "^4.0.6",
+    "react-scrollmagic": "^2.1.0",
     "react-vertical-timeline-component": "^2.3.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",

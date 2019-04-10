@@ -4,8 +4,6 @@ import '!style-loader!css-loader!../react-vertical-timeline-component/style.min.
 
 import timelineElements from '../../timelineElements';
 
-import classNames from '../../classNames';
-
 import styles from './styles.less';
 
 export default class Timeline extends React.Component {
@@ -35,15 +33,10 @@ export default class Timeline extends React.Component {
 	}
 	
 	render() {
-		const { contentOpen } = this.props;
-
 		return (
 			<VerticalTimeline
 				layout="1-column"
-				className={classNames(
-					styles.timelineRoot,
-					contentOpen ? styles.timelineRootContentOpen : null
-				)}
+				className={styles.timelineRoot}
 			>
 				{timelineElements.map(this.renderTimelineElement)}
 			</VerticalTimeline>

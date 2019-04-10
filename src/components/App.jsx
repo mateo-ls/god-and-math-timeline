@@ -22,15 +22,12 @@ export default class App extends React.Component {
 	}
 
 	openArticle = content => {
-		console.log(content);
 		this.setState({
 			content,
 			contentOpen: true,
-		}, () => {
-			console.log('after state', this.state.content);
 		});
 	}
-	
+
 	render() {
 		const {
 			contentOpen,
@@ -39,17 +36,26 @@ export default class App extends React.Component {
 		} = this.state;
 
 		return (
-			<div className={styles.root}>
-				<Timeline
-					contentOpen={contentOpen}
-					openArticle={this.openArticle}
-				/>
+			<div
+				className={styles.root}
+			>
+				<div
+					className={classNames(
+						styles.timeline,
+						contentOpen ? styles.timelineOpen : null
+					)}
+				>
+					<Timeline
+						contentOpen={contentOpen}
+						openArticle={this.openArticle}
+						getTimelineRef={this.setTimelineRef}
+					/>
+				</div>
 				{loaded ?
 					<div
 						className={classNames(
-							styles.contentSection,
-							contentOpen ? styles.contentSectionOpen : null,
-							'hidden-content-section',
+							styles.content,
+							contentOpen ? styles.contentOpen : null
 						)}
 					>
 						<Content
