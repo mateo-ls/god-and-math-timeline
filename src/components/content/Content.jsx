@@ -9,9 +9,11 @@ export default class Content extends React.Component {
 
 		return (
 			<div className={styles.root}>
-				<Markdown
-					source={source}
-				/>
+				<div className={styles.content}>
+					<Markdown
+						source={source}
+					/>
+				</div>
 			</div>
 		)
 	}
