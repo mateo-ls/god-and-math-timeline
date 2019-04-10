@@ -32,6 +32,12 @@ export default class App extends React.Component {
 		});
 	}
 
+	closeArticle = () => {
+		this.setState({
+			contentOpen: false,
+		})
+	}
+
 	render() {
 		const {
 			contentOpen,
@@ -68,6 +74,7 @@ export default class App extends React.Component {
 							source={content}
 							heroUrl={heroUrl}
 							heroTitle={heroTitle}
+							closeArticle={this.closeArticle}
 						/>
 					</div>
 					:
