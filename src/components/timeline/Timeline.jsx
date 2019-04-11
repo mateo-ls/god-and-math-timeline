@@ -14,7 +14,10 @@ export default class Timeline extends React.Component {
 		icon: Icon,
 		article,
 		heroUrl,
-		heroTitle
+		heroTitle,
+		who,
+		ontology,
+		theology,
 	}, index) => {
 		const { openArticle } = this.props;
 		return (
@@ -35,6 +38,12 @@ export default class Timeline extends React.Component {
 					<h2 className={styles.subtitle}>
 						{subtitle}
 					</h2>
+					<h3 className={styles.sectionTitle}>Who are they?</h3>
+					<p className={styles.sectionText}>{who}</p>
+					<h3 className={styles.sectionTitle}>What is math to them?</h3>
+					<p className={styles.sectionText}>{ontology}</p>
+					<h3 className={styles.sectionTitle}>What is the theology of math?</h3>
+					<p className={styles.sectionText}>{theology}</p>
 				</div>
 			</VerticalTimelineElement>
 		)
