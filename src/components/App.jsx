@@ -41,6 +41,10 @@ export default class App extends React.Component {
 			heroTitle,
 			nextIndex,
 			previousIndex,
+		}, () => {
+			if (this.contentContainer) {
+				this.contentContainer.scrollTo(0, 0);
+			}
 		});
 	}
 
@@ -64,6 +68,10 @@ export default class App extends React.Component {
 
 	goToTitle = () => {
 		this.setState({ view: 'intro' });
+	}
+
+	setContentRef = ref => {
+		this.contentContainer = ref;
 	}
 
 	render() {
@@ -121,6 +129,7 @@ export default class App extends React.Component {
 									styles.content,
 									contentOpen ? styles.contentOpen : null
 								)}
+								ref={this.setContentRef}
 							>
 								<Content
 									source={content}
