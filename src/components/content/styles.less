@@ -20,7 +20,7 @@
 	}
 
 	.content {
-		padding: 20px;
+		padding: 20px 40px;
 
 		h1 {
 			font-family: 'Work Sans';
@@ -39,11 +39,36 @@
 		blockquote {
 			padding: 0 10px;
 			border-left: solid 4px #A7A7A7;
+			position: relative;
+			margin: 39px 30px 50px;
 			
 			p {
 				color: #7D7D7D;
 				font-style: italic;
 				text-indent: 0;
+
+				em {
+					position: absolute;
+					bottom: -30px;
+					font-style: normal;
+					right: 0;
+					font-size: 16px;
+
+					&:before {
+						content: '- ',
+					}
+				}
+			}
+		}
+
+		img {
+			display: block;
+			margin: 40px auto 5px;
+
+			& + em {
+				display: block;
+				text-align: center;
+				font-size: 14px;
 			}
 		}
 	}

@@ -1,6 +1,7 @@
 // Import the icons
 import {
-	GiRingedPlanet
+	GiRingedPlanet,
+	GiTriangleTarget,
 } from 'react-icons/gi';
 import {
 	FaLandmark,
@@ -9,8 +10,22 @@ import {
 
 // Import the articles
 import keplerArticle from './articles/kepler.md';
+import pythagorasArticle from './articles/pythagoras.md';
 
 export default [
+	{
+		title: 'Math and Mysticism... Mathticism',
+		subtitle: 'Pythagoras',
+		date: '570 BC - 495 BC',
+		icon: GiTriangleTarget,
+		article: pythagorasArticle,
+		heroUrl: 'https://res.cloudinary.com/josephdangerstewart/image/upload/v1555083351/god-and-math/Bronnikov_gimnpifagoreizev.jpg',
+		heroTitle: 'Pythagoras',
+		who: 'A greek mathematician famous for the Pythagorean theorem and developments in music theory',
+		ontology: 'Math has a very real ontological existence, existing in some realm with causal power',
+		theology: 'Studying math was a form of worship to Apollo and partially how one could achieve the best possible reincarnation',
+		era: 'classical',
+	},
 	{
 		title: 'Math as a Self Existent Ontological Reality',
 		subtitle: 'Plato',
