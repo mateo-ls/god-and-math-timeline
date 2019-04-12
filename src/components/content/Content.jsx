@@ -2,13 +2,14 @@ import React from 'react';
 import Markdown from 'react-markdown';
 
 import IconButton from '@material-ui/core/IconButton';
+import Button from '@material-ui/core/Button';
 import { MdClose } from 'react-icons/md';
 
 import styles from './styles.less';
 
 export default class Content extends React.Component {
 	render() {
-		const { source, heroTitle, heroUrl, closeArticle } = this.props;
+		const { source, heroTitle, heroUrl, closeArticle, onNextArticle, onPreviousArticle } = this.props;
 
 		return (
 			<div className={styles.root}>
@@ -34,6 +35,28 @@ export default class Content extends React.Component {
 					<Markdown
 						source={source}
 					/>
+				</div>
+				<div className={styles.buttonContainer}>
+					{onPreviousArticle ?
+						<Button
+							id={styles.leftButton}
+							onClick={onPreviousArticle}
+						>
+							Previous
+						</Button>
+						:
+						null
+					}
+					{onNextArticle ?
+						<Button
+							id={styles.rightButton}
+							onClick={onNextArticle}
+						>
+							Next
+						</Button>
+						:
+						null
+					}
 				</div>
 			</div>
 		)

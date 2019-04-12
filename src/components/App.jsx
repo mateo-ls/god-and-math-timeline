@@ -8,6 +8,8 @@ import classNames from '../classNames';
 import IconButton from '@material-ui/core/IconButton';
 import { MdArrowUpward } from 'react-icons/md';
 
+import timelineElements from '../timelineElements';
+
 import styles from './app.less';
 
 export default class App extends React.Component {
@@ -18,6 +20,8 @@ export default class App extends React.Component {
 		heroUrl: '',
 		heroTitle: '',
 		view: 'intro',
+		previousIndex: null,
+		nextIndex: null,
 	}
 
 	componentDidMount = () => {
@@ -29,13 +33,23 @@ export default class App extends React.Component {
 		);
 	}
 
-	openArticle = (content, heroUrl, heroTitle) => {
+	openArticle = (content, heroUrl, heroTitle, previousIndex, nextIndex) => {
 		this.setState({
 			content,
 			contentOpen: true,
 			heroUrl,
 			heroTitle,
+			nextIndex,
+			previousIndex,
 		});
+	}
+
+	navigateToArticle = direction => () => {
+		const index = this.state[`${direction}Index`];
+		if (timelineElements[index]) {
+			const { article, heroUrl, heroTitle } = timelineElements[index];
+			this.openArticle(article, heroUrl, heroTitle, index - 1, index + 1);
+		}
 	}
 
 	closeArticle = () => {
@@ -60,6 +74,8 @@ export default class App extends React.Component {
 			heroUrl,
 			heroTitle,
 			view,
+			previousIndex,
+			nextIndex,
 		} = this.state;
 
 		return (
@@ -111,6 +127,8 @@ export default class App extends React.Component {
 									heroUrl={heroUrl}
 									heroTitle={heroTitle}
 									closeArticle={this.closeArticle}
+									onNextArticle={timelineElements[nextIndex] ? this.navigateToArticle('next') : null}
+									onPreviousArticle={timelineElements[previousIndex] ? this.navigateToArticle('previous') : null}
 								/>
 							</div>
 							:

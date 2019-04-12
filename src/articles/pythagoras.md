@@ -12,7 +12,7 @@ _Pythagoras_
 This belief system is contained in the Pythagorean symbol of the Tetractys, a triangle figure consisting of four rows of dots, one at the top, two in the second, three in the third, and four in the fourth. This figure was very important in the mystical Pythagorean beliefs. Each of these numbers were very important in the way that numbers related to the universe. The number one was the symbol of unity and the monad, the singular beginning point of life. The number two was the symbol of duality, three the number of harmony, and four the number of completion.  These numbers also all add up to ten which is the perfect number in Pythagoreanism.
 
 ![Tetractys](https://res.cloudinary.com/josephdangerstewart/image/upload/v1555083967/god-and-math/200px-Tetractys.svg.png)
-_Tetractys_
+_Tetractys - The Holy Symbol of Pythagoreanism_
 
 ## What is the Spiritual and/or Theological Status of Math?
 

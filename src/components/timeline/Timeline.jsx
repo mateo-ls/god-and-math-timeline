@@ -25,7 +25,7 @@ export default class Timeline extends React.Component {
 		ontology,
 		theology,
 		era,
-	}, index) => {
+	}, index, array) => {
 		const { openArticle } = this.props;
 		return (
 			<VerticalTimelineElement
@@ -33,7 +33,13 @@ export default class Timeline extends React.Component {
 				icon={<Icon />}
 				iconStyle={{ background: eraColors[era], color: '#fff' }}
 				key={index}
-				onClick={() => openArticle(article, heroUrl, heroTitle)}
+				onClick={() => openArticle(
+					article,
+					heroUrl,
+					heroTitle,
+					index - 1,
+					index + 1,
+				)}
 				className={styles.timelineElement}
 			>
 				<div
