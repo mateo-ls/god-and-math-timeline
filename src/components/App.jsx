@@ -2,7 +2,11 @@ import React from 'react';
 import Content from './content/Content';
 import Timeline from './timeline/Timeline';
 import Description from './description/Description';
+import ColorLegend from './color-legend/ColorLegend';
 import classNames from '../classNames';
+
+import IconButton from '@material-ui/core/IconButton';
+import { MdArrowUpward } from 'react-icons/md';
 
 import styles from './app.less';
 
@@ -44,6 +48,10 @@ export default class App extends React.Component {
 		this.setState({ view: 'app' });
 	}
 
+	goToTitle = () => {
+		this.setState({ view: 'intro' });
+	}
+
 	render() {
 		const {
 			contentOpen,
@@ -79,7 +87,12 @@ export default class App extends React.Component {
 								contentOpen ? styles.timelineOpen : null
 							)}
 						>
-							
+							<div className={styles.buttonContainer}>
+								<IconButton onClick={this.goToTitle}>
+									<MdArrowUpward />
+								</IconButton>
+							</div>
+							<ColorLegend />
 							<Timeline
 								contentOpen={contentOpen}
 								openArticle={this.openArticle}

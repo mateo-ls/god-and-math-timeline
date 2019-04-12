@@ -1,0 +1,44 @@
+.root {
+	.title {
+		font-family: 'Work Sans';
+		text-align: center;
+		font-size: 34px;
+	}
+
+	.legend {
+		display: flex;
+		justify-content: space-evenly;
+
+		.legend-section {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 40px;
+
+			.legend-circle {
+				width: 40px;
+				height: 40px;
+				border-radius: 20px;
+				box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+				margin-bottom: 12px;
+
+				&#modern {
+					background-color: #6A9CD2;
+				}
+
+				&#scientific-revolution {
+					background-color: #CE5C6D;
+				}
+
+				&#classical {
+					background-color: #F8DF89;
+				}
+			}
+
+			span {
+				text-align: center;
+				font-family: 'Raleway';
+			}
+		}
+	}
+}

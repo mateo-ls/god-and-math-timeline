@@ -7,9 +7,9 @@ import timelineElements from '../../timelineElements';
 import styles from './styles.less';
 
 const eraColors = {
-	'modern': '#63ADF2',
-	'scientific_revolution': '#DE1A1A',
-	'classical': '#F46036',
+	'modern': '#6A9CD2',
+	'scientific_revolution': '#CE5C6D',
+	'classical': '#F8DF89',
 };
 
 export default class Timeline extends React.Component {
