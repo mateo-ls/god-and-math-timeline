@@ -6,6 +6,12 @@ import timelineElements from '../../timelineElements';
 
 import styles from './styles.less';
 
+const eraColors = {
+	'modern': '#63ADF2',
+	'scientific_revolution': '#DE1A1A',
+	'classical': '#F46036',
+};
+
 export default class Timeline extends React.Component {
 	renderTimelineElement = ({
 		title,
@@ -18,13 +24,14 @@ export default class Timeline extends React.Component {
 		who,
 		ontology,
 		theology,
+		era,
 	}, index) => {
 		const { openArticle } = this.props;
 		return (
 			<VerticalTimelineElement
 				date={date}
 				icon={<Icon />}
-				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+				iconStyle={{ background: eraColors[era], color: '#fff' }}
 				key={index}
 				onClick={() => openArticle(article, heroUrl, heroTitle)}
 				className={styles.timelineElement}

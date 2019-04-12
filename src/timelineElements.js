@@ -1,3 +1,4 @@
+// Import the icons
 import {
 	GiRingedPlanet
 } from 'react-icons/gi';
@@ -6,6 +7,7 @@ import {
 	FaCube,
 } from 'react-icons/fa';
 
+// Import the articles
 import keplerArticle from './articles/kepler.md';
 
 export default [
@@ -18,6 +20,7 @@ export default [
 		who: 'Coming soon',
 		ontology: 'Coming soon',
 		theology: 'Coming soon',
+		era: 'classical',
 	},
 	{
 		title: 'Math as a Description of Reality',
@@ -28,6 +31,7 @@ export default [
 		who: 'Coming soon',
 		ontology: 'Coming soon',
 		theology: 'Coming soon',
+		era: 'classical',
 	},
 	{
 		title: 'Christian Math in a Geocentric Era',
@@ -40,6 +44,7 @@ export default [
 		who: 'A scientific revolution era astronomer who came up with the three laws of planetary motion',
 		ontology: 'Math is not self existent, but a constant language of nature',
 		theology: 'God used math to define the universe and learning math get\'s one closer to God',
+		era: 'scientific_revolution',
 	},
 	{
 		title: 'Math as a Description of Reality',
@@ -50,6 +55,7 @@ export default [
 		who: 'Coming soon',
 		ontology: 'Coming soon',
 		theology: 'Coming soon',
+		era: 'modern',
 	},
 	{
 		title: 'Math as a Description of Reality',
@@ -57,16 +63,7 @@ export default [
 		date: '384 BC - 322 BC',
 		icon: FaLandmark,
 		article: '# Coming soon',
-	},
-	{
-		title: 'Math as a Description of Reality',
-		subtitle: 'Aristotle',
-		date: '384 BC - 322 BC',
-		icon: FaLandmark,
-		article: '# Coming soon',
-		who: 'Coming soon',
-		ontology: 'Coming soon',
-		theology: 'Coming soon',
+		era: 'modern',
 	},
 	{
 		title: 'Math as a Description of Reality',
@@ -77,6 +74,7 @@ export default [
 		who: 'Coming soon',
 		ontology: 'Coming soon',
 		theology: 'Coming soon',
+		era: 'modern',
 	},
 	{
 		title: 'Math as a Description of Reality',
@@ -87,6 +85,7 @@ export default [
 		who: 'Coming soon',
 		ontology: 'Coming soon',
 		theology: 'Coming soon',
+		era: 'modern',
 	},
 	{
 		title: 'Math as a Description of Reality',
@@ -97,6 +96,7 @@ export default [
 		who: 'Coming soon',
 		ontology: 'Coming soon',
 		theology: 'Coming soon',
+		era: 'modern',
 	},
 	{
 		title: 'Math as a Description of Reality',
@@ -107,6 +107,7 @@ export default [
 		who: 'Coming soon',
 		ontology: 'Coming soon',
 		theology: 'Coming soon',
+		era: 'modern',
 	},
 	{
 		title: 'Math as a Description of Reality',
@@ -117,5 +118,17 @@ export default [
 		who: 'Coming soon',
 		ontology: 'Coming soon',
 		theology: 'Coming soon',
+		era: 'modern',
+	},
+	{
+		title: 'Math as a Description of Reality',
+		subtitle: 'Aristotle',
+		date: '384 BC - 322 BC',
+		icon: FaLandmark,
+		article: '# Coming soon',
+		who: 'Coming soon',
+		ontology: 'Coming soon',
+		theology: 'Coming soon',
+		era: 'modern',
 	},
 ];

@@ -1,6 +1,7 @@
 import React from 'react';
 import Content from './content/Content';
 import Timeline from './timeline/Timeline';
+import Description from './description/Description';
 import classNames from '../classNames';
 
 import styles from './app.less';
@@ -12,6 +13,7 @@ export default class App extends React.Component {
 		content: '',
 		heroUrl: '',
 		heroTitle: '',
+		view: 'intro',
 	}
 
 	componentDidMount = () => {
@@ -38,6 +40,10 @@ export default class App extends React.Component {
 		})
 	}
 
+	goToApp = () => {
+		this.setState({ view: 'app' });
+	}
+
 	render() {
 		const {
 			contentOpen,
@@ -45,37 +51,58 @@ export default class App extends React.Component {
 			content,
 			heroUrl,
 			heroTitle,
+			view,
 		} = this.state;
 
 		return (
 			<div
 				className={styles.root}
 			>
-				<div
-					className={classNames(
-						styles.timeline,
-						contentOpen ? styles.timelineOpen : null
-					)}
-				>
-					<Timeline
-						contentOpen={contentOpen}
-						openArticle={this.openArticle}
-						getTimelineRef={this.setTimelineRef}
+				<div className={classNames(
+					styles.introSection,
+					view === 'app' ? styles.introSectionHidden : null
+				)}>
+					<Description
+						goToApp={this.goToApp}
 					/>
 				</div>
-				{loaded ?
+				{loaded ? 
 					<div
 						className={classNames(
-							styles.content,
-							contentOpen ? styles.contentOpen : null
+							styles.appSection,
+							view === 'app' ? styles.appSectionActive : null
 						)}
 					>
-						<Content
-							source={content}
-							heroUrl={heroUrl}
-							heroTitle={heroTitle}
-							closeArticle={this.closeArticle}
-						/>
+						<div
+							className={classNames(
+								styles.timeline,
+								contentOpen ? styles.timelineOpen : null
+							)}
+						>
+							
+							<Timeline
+								contentOpen={contentOpen}
+								openArticle={this.openArticle}
+								getTimelineRef={this.setTimelineRef}
+							/>
+						</div>
+						{loaded ?
+							<div
+								className={classNames(
+									styles.content,
+									contentOpen ? styles.contentOpen : null
+								)}
+							>
+								<Content
+									source={content}
+									heroUrl={heroUrl}
+									heroTitle={heroTitle}
+									closeArticle={this.closeArticle}
+								/>
+							</div>
+							:
+							null
+						}
 					</div>
 					:
 					null
