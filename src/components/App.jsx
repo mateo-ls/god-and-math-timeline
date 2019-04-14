@@ -22,6 +22,8 @@ export default class App extends React.Component {
 		view: 'intro',
 		previousIndex: null,
 		nextIndex: null,
+		toIntroSection: false,
+		viewLoaded: true,
 	}
 
 	componentDidMount = () => {
@@ -63,11 +65,44 @@ export default class App extends React.Component {
 	}
 
 	goToApp = () => {
-		this.setState({ view: 'app' });
+		this.setState(
+			{ view: 'app', viewLoaded: false },
+			() => setTimeout(() => {
+				this.setState({ viewLoaded: true });
+			}, 500)		
+		);
 	}
 
 	goToTitle = () => {
-		this.setState({ view: 'intro' });
+		this.setState(
+			{
+				toIntroSection: true,
+				viewLoaded: false,
+			}
+		);
+	}
+
+	componentDidUpdate(prevProps, prevState) {
+		const { toIntroSection, viewLoaded, view } = this.state;
+
+		// If we have just triggered the transition from app to intro section, continue into the next
+		// step by setting the view and ending the setup phase
+		if (toIntroSection && !viewLoaded && view === 'app') {
+			setImmediate(() =>
+				this.setState({
+					view: 'intro',
+					toIntroSection: false,
+				})
+			);
+		}
+		
+		// If the animation has been triggered set the timeout to record that the view has been loaded
+		else if (!toIntroSection && !viewLoaded && view === 'intro') {
+			setTimeout(
+				() => this.setState({ viewLoaded: true }),
+				500
+			);
+		}
 	}
 
 	setContentRef = ref => {
@@ -84,6 +119,8 @@ export default class App extends React.Component {
 			view,
 			previousIndex,
 			nextIndex,
+			viewLoaded,
+			toIntroSection,
 		} = this.state;
 
 		return (
@@ -92,7 +129,9 @@ export default class App extends React.Component {
 			>
 				<div className={classNames(
 					styles.introSection,
-					view === 'app' ? styles.introSectionHidden : null
+					view === 'app' ? styles.introSectionHidden : null,
+					viewLoaded && view === 'app' ? styles.viewLoaded : null,
+					toIntroSection ? styles.toIntroSection : null
 				)}>
 					<Description
 						goToApp={this.goToApp}
@@ -102,13 +141,15 @@ export default class App extends React.Component {
 					<div
 						className={classNames(
 							styles.appSection,
-							view === 'app' ? styles.appSectionActive : null
+							view === 'app' ? styles.appSectionActive : null,
+							viewLoaded && view === 'app' ? styles.viewLoaded : null,
+							toIntroSection ? styles.toIntroSection : null
 						)}
 					>
 						<div
 							className={classNames(
 								styles.timeline,
-								contentOpen ? styles.timelineOpen : null
+								contentOpen ? styles.timelineOpen : null,
 							)}
 						>
 							<div className={styles.buttonContainer}>

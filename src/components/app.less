@@ -16,6 +16,14 @@
 
 		&-hidden {
 			transform: translateY(-100%);
+
+			&.view-loaded {
+				display: none;
+			}
+
+			&.to-intro-section {
+				display: flex;
+			}
 		}
 	}
 
@@ -30,6 +38,16 @@
 
 		&-active {
 			transform: translateY(-100%);
+
+			&.view-loaded {
+				transform: translateY(0);
+				transition: unset;
+			}
+
+			&.to-intro-section {
+				transform: translateY(-100%);
+				transition: unset;
+			}
 		}
 
 		.timeline {

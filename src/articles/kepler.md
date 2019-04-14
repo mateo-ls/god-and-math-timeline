@@ -1,6 +1,6 @@
 ## Who was Kepler?
 
-Johannes Kepler was born december 27th 1571 to Katherina and Heinrich Kepler. His childhood was recorded as less than pleasant. His mother was argumentative and his father was an immoral mercenary. He also almost died from smallpox as a child. Despite the hardships of his youth, he was offered a scholarship to the University of Tubingen where he was first introduced to the Copernicus model of the solar system despite living in a time where those who held such beliefs were persecuted by the Catholic church. Even in living in such a time, Kepler retained a strong faith and desired to see the Catholic church corrected and improved. He is most famous for his three laws describing planetary motion.
+Johannes Kepler was born december 27th 1571 to Katherina and Heinrich Kepler. His childhood was recorded as less than pleasant. His mother was argumentative and his father was an immoral mercenary. He also almost died from smallpox as a child. Despite the hardships of his youth, he was offered a scholarship to the University of Tubingen where he was first introduced to the Copernicus model of the solar system despite living in a time where those who held such beliefs were persecuted by the Catholic church. Even in living in such a time, Kepler retained a strong faith and desired to see the Catholic church corrected and improved. He is most famous for his three laws describing planetary motion. [^first]
 
 ## What is Math and Truth?
 
@@ -18,3 +18,4 @@ _Johannes Kepler_
 
 However, these critics mostly challenge his claims of revelation and some odd sounding inferences about reality but leave his academic processes and credibility untouched. Kepler believed that strictly regulated and structured scientific study was the way to know God which differed from the deeply personal and revelation based nature of the popular Catholic opinion on both spiritual and natural truth.
 
+[^first]: Footnote text
