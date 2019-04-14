@@ -64,6 +64,14 @@
 				font-style: italic;
 				text-indent: 0;
 
+				sup a {
+					color: #7D7D7D;
+
+					&:hover {
+						background-color: #7D7D7D;
+					}
+				}
+
 				em {
 					position: absolute;
 					bottom: -30px;
@@ -87,6 +95,19 @@
 				text-align: center;
 				font-size: 14px;
 			}
+		}
+
+		:global(.footnotes-sep) {
+			margin-top: 35px;
+		}
+
+		:global(.footnotes) {
+			font-size: 11px;
+		}
+
+		a {
+			font-size: 12px;
+			color: inherit;
 		}
 	}
 }

@@ -1,4 +1,4 @@
-## Who was Plato?
+## Who was Aristotle?
 
 Aristotle was student to the heavyweight philosophical thinker Plato. Born roughly in 384 BC, lived until the age of 322 BC. He was involved in many fields of study, including but not limited to mathematics, physics, logic, several fields of biology, as well as government. Aristotle was a gifted polymath that understood life from several different angles. He attended Plato's academy for a large portion of his life and left shortly after Plato died. After his time at the academy, he took to the world and established a library where he dedicated himself to write many works on several different matters. While he was a student to Plato, he differed from Plato in many ways. 
 
