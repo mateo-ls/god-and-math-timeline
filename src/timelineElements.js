@@ -24,11 +24,11 @@ const icons = {
 
 const dateRegex = /((\d+)\s*(AD|BC)?\s*)(-(\s*(\d+)\s*(AD|BC)?))?/gi;
 
-const files = require.context('./articles/', true, /\.md$/);
+const files = require.context('../articles/', true, /\.md$/);
 
 let items = [];
 files.keys().forEach(file => {
-	const article = require(`./articles/${file.split('/')[1]}`).default;
+	const article = require(`../articles/${file.split('/')[1]}`).default;
 	const { metadata, content } = parser(article);
 
 	let icon = icons.fa.FaCalculator;
