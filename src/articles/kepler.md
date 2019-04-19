@@ -1,3 +1,16 @@
+---
+title: Christian Math in a Geocentric Era
+subtitle: Johannes Kepler
+date: 1571 AD - 1630 AD
+icon: GiRingedPlanet
+article: keplerArticle
+heroUrl: https://res.cloudinary.com/josephdangerstewart/image/upload/v1554924815/god-and-math/planets.jpg
+who: A scientific revolution era astronomer who came up with the three laws of planetary motion
+ontology: Math is not self existent, but a constant language of nature
+theology: God used math to define the universe and learning math gets one closer to God
+era: scientific_revolution
+---
+
 ## Who was Kepler?
 
 Johannes Kepler was born december 27th 1571 to Katherina and Heinrich Kepler. His childhood was recorded as less than pleasant. His mother was argumentative and his father was an immoral mercenary. He also almost died from smallpox as a child.[^1] Despite the hardships of his youth, he was offered a scholarship to the University of Tubingen where he was first introduced to the Copernicus model of the solar system despite living in a time where those who held such beliefs were persecuted by the Catholic church.[^2] Even in living in such a time, Kepler retained a strong faith and desired to see the Catholic church corrected and improved. He is most famous for his three laws describing planetary motion.

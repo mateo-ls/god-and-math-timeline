@@ -1,3 +1,16 @@
+---
+title: Math and Mysticism... Mathticism
+subtitle: Pythagoras
+date: 570 BC - 495 BC
+icon: GiTriangleTarget
+article: pythagorasArticle
+heroUrl: https://res.cloudinary.com/josephdangerstewart/image/upload/v1555083351/god-and-math/Bronnikov_gimnpifagoreizev.jpg
+who: A greek mathematician famous for the Pythagorean theorem and developments in music theory
+ontology: Math has a very real ontological existence, existing in some realm with causal power
+theology: Studying math was a form of worship to Apollo and partially how one could achieve the best possible reincarnation
+era: classical
+---
+
 ## Who was Pythagoras?
 
 Pythagoras of Samos was a classical Greek mathematician who lived from roughly 570 BC to 495 BC. These dates are based on the testimony of Aristoxenus (a philosopher and student of Aristotle) who writes that Pythagoras escaped from the tyranny of Polycrates (who began ruling around 538) at around the age of 40.[^1] Not much is known about the personal life of Pythagoras and what we can infer is largely just speculation. Some believe that he went to go study in Egypt for some time[^2] which would not be completely crazy to believe since Greeks valued very highly the academic wisdom of the Egyptians.[^3] Pythagoras is most famous for the Pythagorean theorem which states that the the sum of the squares of the two shorter sides equals the hypotenuse squared but is also responsible for many developments in music theory. He also famously began a school in Croton in which he taught number theory, music, geometry, and astronomy which according to some scholars was more like a cult than a school.[^4]
