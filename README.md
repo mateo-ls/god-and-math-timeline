@@ -1,12 +1,29 @@
 # The God and Math Timeline
 
+## Table of Contents
+
+* [Project description](#project-description)
+* [Contributing](#contributing)
+  * [Third party software you need to download and install](#third-party-software-you-need-to-download-and-install)
+  * [Downloading the project and building it](#downloading-the-project-and-building-it)
+  * [Writing your article](#writing-your-article)
+  * [Adding your article](#adding-your-article)
+     * [Formatting quotes](#formatting-quotes)
+     * [Formatting footnotes](#formatting-footnotes)
+  * [Adding metadata](#adding-metadata)
+  * [Rebuilding the project](#rebuilding-the-project)
+  * [Creating a request to add your changes to the main project](#creating-a-request-to-add-your-changes-to-the-main-project)
+  
+
 ## Project description
+[Back to top](#table-of-contents)
 
 This project was initially started by Joseph Stewart and Mark Nguyen for BBST465 - God and Math at Biola University, taught by Dr. Jason Wilson in the Spring of 2019. The purpose of this project is to outline the historical development of the integration of math and faith and present it in an aesthetically pleasing way while remaining academically credible. The project is a series of essays highlighting historical figures who have had some influence or who's ideas represent a larger philosophy of their era. These essays aim to describe what these figures believed as well as what social, historical, and personal factors might have influenced them to believe that way.
 
 ## Contributing
 
 ### Third party software you need to download and install
+[Back to top](#table-of-contents)
 
 In order to download and build this project you will need to install the following.
 
@@ -19,6 +36,7 @@ In order to download and build this project you will need to install the followi
 
 
 ### Downloading the project and building it
+[Back to top](#table-of-contents)
 
 In order to download this project and see it, you are going to need to run some terminal or command prompt commands. Once you download and install both [git](https://git-scm.com/downloads) and [Node](https://nodejs.org/en/download/), follow the following steps.
 
@@ -33,6 +51,7 @@ In order to download this project and see it, you are going to need to run some 
 9. That's it! You've built the project! That wasn't so bad was it?
 
 ### Writing your article
+[Back to top](#table-of-contents)
 
 Once you've built the project, the next step is to pick an article to write that would fit in the timeline. This will mostly be historical figures but do not feel as if you need to limit yourself. Dr. Wilson suggested to me that I write an article about generic "priests". Once you pick a historical figure (or historical people group), break down the article into three sections:
 
@@ -54,6 +73,7 @@ Once you've built the project, the next step is to pick an article to write that
 Once you know what you're going to write about and the structure of the article. Write it first in whatever you typically use to write essays (Word, Google Docs, Pages, etc). Make sure to include footnotes and, if you can and if it's relevant, quotes.
 
 ### Adding your article
+[Back to top](#table-of-contents)
 
 Once you're article is done and you're happy with it, the next step is to copy it into the format that this project uses, [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Markdown is a simple plaintext language for writing rich-text content to be used on the web. It gets translated directly to [HTML](https://en.wikipedia.org/wiki/HTML). You don't need to be an expert in Markdown in order to contribute to this project, but you do need to know how to format your article using it.
 
@@ -76,6 +96,7 @@ Then add the three section headings using two hashtags like so.
 Then copy and paste each section under its heading and format quotes and footnotes accordingly
 
 #### Formatting quotes
+[Back to top](#table-of-contents)
 
 Format quotes using the '>' character. So if you have the following quote
 
@@ -91,6 +112,7 @@ _Pythagoras_
 Put the name of the person who said the quote between two underscores directly under the quote itself.
 
 #### Formatting footnotes
+[Back to top](#table-of-contents)
 
 Format footnote links using the following format. If I have the following sentence
 
@@ -124,6 +146,7 @@ Some idea that I did not come up with.[^2]
 ```
 
 ### Adding metadata
+[Back to top](#table-of-contents)
 
 Once the article is copied over using the Markdown format, you must add the meta information used by the timeline itself. At the top of the article add the following header information.
 
@@ -159,6 +182,7 @@ era: classical
 For the icon, pick an icon that makes sense for the historical figure from [this website](https://react-icons.netlify.com/#/icons/fa) and simply put the name of the icon.
 
 ### Rebuilding the project
+[Back to top](#table-of-contents)
 
 Now that you've added your article, make sure that everything runs correctly and it was correctly added to the project. Follow the following steps to rebuild the project with your article added.
 
@@ -170,6 +194,7 @@ Now that you've added your article, make sure that everything runs correctly and
 If everything works then awesome! You are ready to add it to the main project!
 
 ### Creating a request to add your changes to the main project
+[Back to top](#table-of-contents)
 
 If you do not have a github account, you must make one in order to create a pull request. Once you make a github account, follow the following steps
 
@@ -187,4 +212,4 @@ If you do not have a github account, you must make one in order to create a pull
 12. Click the drop down that says "compare: master" and find your branch (it should be called `add-my-historical-figure-article` so if you were doing Kepler it would be `add-kepler-article`)
 13. Click "Create pull request"
 
-And that's it! You're done! Your article will be reviewed and if it is acceptable, merged into the final project.
+And that's it! You're done! Your article will be reviewed and if it is acceptable, merged into the final project. Thank you for contributing!
