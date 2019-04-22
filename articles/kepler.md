@@ -3,7 +3,6 @@ title: Christian Math in a Geocentric Era
 subtitle: Johannes Kepler
 date: 1571 AD - 1630 AD
 icon: GiRingedPlanet
-article: keplerArticle
 heroUrl: https://res.cloudinary.com/josephdangerstewart/image/upload/v1554924815/god-and-math/planets.jpg
 who: A scientific revolution era astronomer who came up with the three laws of planetary motion
 ontology: Math is not self existent, but a constant language of nature

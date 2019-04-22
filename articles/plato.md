@@ -3,7 +3,6 @@ title: Math as a Self Existent Ontological Reality
 subtitle: Plato
 date: 428 BC - 347 BC
 icon: FaCube
-article: platoArticle
 heroUrl: https://res.cloudinary.com/josephdangerstewart/image/upload/v1555093629/god-and-math/plato.jpg
 who: Coming soon
 ontology: Coming soon

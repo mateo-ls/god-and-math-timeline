@@ -3,7 +3,6 @@ title: Math and Mysticism... Mathticism
 subtitle: Pythagoras
 date: 570 BC - 495 BC
 icon: GiTriangleTarget
-article: pythagorasArticle
 heroUrl: https://res.cloudinary.com/josephdangerstewart/image/upload/v1555083351/god-and-math/Bronnikov_gimnpifagoreizev.jpg
 who: A greek mathematician famous for the Pythagorean theorem and developments in music theory
 ontology: Math has a very real ontological existence, existing in some realm with causal power

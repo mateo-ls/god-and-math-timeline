@@ -38,7 +38,7 @@ files.keys().forEach(file => {
 	}
 
 	const heroUrl = metadata.heroUrl || 'https://source.unsplash.com/1600x900/?bible';
-	const heroTitle = metadata.heroTitle || metadata.title;
+	const heroTitle = metadata.heroTitle || metadata.subtitle;
 	
 	let startDateInt = -Infinity;
 

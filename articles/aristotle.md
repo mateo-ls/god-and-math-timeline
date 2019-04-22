@@ -3,7 +3,6 @@ title: Math as a Description of Reality
 subtitle: Aristotle
 date: 384 BC - 322 BC
 icon: FaLandmark
-article: aristotleArticle
 who: Coming soon
 ontology: Coming soon
 theology: Coming soon
