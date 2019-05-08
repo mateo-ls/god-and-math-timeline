@@ -202,16 +202,12 @@ If you do not have a github account, you must make one in order to create a pull
 
 1. Open Command Prompt if you are on Windows or Terminal if you are on Mac
 2. Type `cd Desktop/god-and-math-timeline` and press enter (Note: Do not do this if youa re still using the same window)
-3. Type `git checkout master` and press enter
-4. Type `git checkout -b add-my-historical-figure-article` (if you were doing Kepler, you would type `git checkout -b add-kepler-article`) and press enter
-5. Type `git config --global user.email <your-email>` (if your email was jondoe@example.com, you would type `git config --global user.email jondoe@example.com`. This only needs to be done once) and press enter
-6. Type `git config --global user.name <your-name>` (if your name was Jon Doe, you would type `git config --global user.name Jon Doe`. This only needs to be done once) and press enter
-7. Type `git add .` and press enter
-8. Type `git commit -m "Added article for <my-historical-figure>"` (if you were doing Kepler, you would type `git commit -m "Added article for Kepler`) and press enter
-9. Type `git push origin add-my-historical-figure-article` (if you were doing Kepler, you would type `git push origin add-kepler-article`) and press enter
-10. Go into your browser and go to the repository page (this page) and click on the "Pull requests tab" (or go to this [link](https://github.com/josephdangerstewart/god-and-math-timeline/pulls))
-11. Click "New pull request"
-12. Click the drop down that says "compare: master" and find your branch (it should be called `add-my-historical-figure-article` so if you were doing Kepler it would be `add-kepler-article`)
-13. Click "Create pull request"
+3. Type `git checkout master` and press enter and press enter
+4. Type `git config --global user.email <your-email>` (if your email was jondoe@example.com, you would type `git config --global user.email jondoe@example.com`. This only needs to be done once) and press enter
+5. Type `git config --global user.name <your-name>` (if your name was Jon Doe, you would type `git config --global user.name Jon Doe`. This only needs to be done once) and press enter
+6. Type `git add .` and press enter
+7. Type `git commit -m "Added article for <my-historical-figure>"` (if you were doing Kepler, you would type `git commit -m "Added article for Kepler`) and press enter
+8. Type `git push origin master` and press enter
+9. Wait for it to do its thing
 
-And that's it! You're done! Your article will be reviewed and if it is acceptable, merged into the final project. Thank you for contributing!
+And that's it! You're done! Your article is now part of the project
