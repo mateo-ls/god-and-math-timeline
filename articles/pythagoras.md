@@ -54,5 +54,5 @@ Ultimately, the Pythagorean philosophy of mathematics, theology, mysticism, and 
 [^12]: Naifeh, CiCi. Pythagoras. Wichita State University, www.math.wichita.edu/history/Men/pythagoras.html.
 [^13]: Karamanides, Dimitra. Pythagoras: Pioneering Mathematician and Musical Theorist of Ancient Greece. Rosen Pub. Group, 2006. p 59
 [^14]: Huffman, Carl, "Pythagoras", The Stanford Encyclopedia of Philosophy (Winter 2018 Edition), Edward N. Zalta (ed.), URL = https://plato.stanford.edu/archives/win2018/entries/pythagoras/.
-[^15]: Allen, Don. “Pythagoras and the Pythagoreans.” Pythagoras and the Pythagoreans, Texas A&M University, 6 Feb. 1997, 13:10:23, www.math.tamu.edu/~dallen/history/pythag/pythag.html.
+[^15]: Allen, Don. "Pythagoras and the Pythagoreans." Pythagoras and the Pythagoreans, Texas A&M University, 6 Feb. 1997, 13:10:23, www.math.tamu.edu/~dallen/history/pythag/pythag.html.
 

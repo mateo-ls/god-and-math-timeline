@@ -33,7 +33,7 @@ be a construct of thought rather than a system that existed alongside creation.
 
 Plato's "forms" represents ideals of things that exist outside of the physical realm which are
 meant to capture the pure essence of how things are meant to be in their purest state, Related
-to his idea of the “forms”, Plato saw mathematics not as a form, or as matter, but as existing in
+to his idea of the "forms", Plato saw mathematics not as a form, or as matter, but as existing in
 some ambiguous place that exists between the forms and between matter. Although not a form,
 mathematics is seen as separate from humanity's rational actions and is unchangeable in that
 way. Mathematics is clearly connected to the divine in his writings. In Timaeus, Plato describes

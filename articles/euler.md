@@ -23,7 +23,7 @@ _Leonard Euler_
 
 ## What is the Spiritual and/or Theological Status of Math?
 
-Euler’s father was a pastor in a Calvinist church which had an influence on Euler’s view of God and the Divine. Although Euler chose to continue his career in mathematics instead of following in his father’s footsteps in becoming a pastor as well, he continued to be a religious man into his adult life. As a family man, every evening he would spend time with his family reading and discussing the Bible.[^2]
+Euler's father was a pastor in a Calvinist church which had an influence on Euler's view of God and the Divine. Although Euler chose to continue his career in mathematics instead of following in his father's footsteps in becoming a pastor as well, he continued to be a religious man into his adult life. As a family man, every evening he would spend time with his family reading and discussing the Bible.[^2]
 
 [^1]: Leonhard Euler Quotes (Author of Elements of Algebra). (n.d.). Retrieved from https://www.goodreads.com/author/quotes/186483.Leonhard_Euler
 [^2]: Leonhard Euler. (n.d.). Retrieved from https://www.famousscientists.org/leonhard-euler/
