@@ -8,6 +8,7 @@ who: An astronomer who is credited with the invention of the telescope and the d
 ontology: Math describes the physical universe and is the leading authority in the physical realm
 theology: Math is authoritative for the physical world, the Bible is authoritative for Spiritual world
 era: scientific_revolution
+author: Filip Peia
 ---
 
 ## Who was Galileo?

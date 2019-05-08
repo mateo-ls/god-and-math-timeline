@@ -8,6 +8,7 @@ who: A legendary greek philosopher who pioneered realism through his idea of the
 ontology: Math is self-existent, independent from mankind's actions
 theology: Math is connected to the divine, used to create the world
 era: classical
+author: Mark Nguyen
 ---
 
 ## Who was Plato?

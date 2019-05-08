@@ -8,6 +8,7 @@ who: A French mathematician known for his theological and mathematical contribut
 ontology: Math exists apart from the mathematician and requires a degree of faith
 theology: Math is a bridge to share in the divine thoughts
 era: scientific_revolution
+author: Allisun Thomas
 ---
 
 ## Who was Kepler?

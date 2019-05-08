@@ -8,6 +8,7 @@ who: The most published mathematician to date
 ontology: All truth, including mathematical truth, can only be attained through logic
 theology: Math is seemingly unconnected from theology but both are important
 era: modern
+author: McKenna Dorman
 ---
 
 ## Who was Euler?

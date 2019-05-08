@@ -8,6 +8,7 @@ who: A scientific revolution era astronomer who came up with the three laws of p
 ontology: Math is not self existent, but a constant language of nature
 theology: God used math to define the universe and learning math gets one closer to God
 era: scientific_revolution
+author: Joseph Stewart
 ---
 
 ## Who was Kepler?

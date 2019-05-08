@@ -8,6 +8,7 @@ ontology: Coming soon
 theology: Coming soon
 era: classical
 heroUrl: https://res.cloudinary.com/josephdangerstewart/image/upload/v1555093845/god-and-math/Aristotle-Park-1000x500-c-center.jpg
+author: Mark Nguyen
 ---
 
 ## Who was Aristotle?

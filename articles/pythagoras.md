@@ -8,6 +8,7 @@ who: A greek mathematician famous for the Pythagorean theorem and developments i
 ontology: Math has a very real ontological existence, existing in some realm with causal power
 theology: Studying math was a form of worship to Apollo and partially how one could achieve the best possible reincarnation
 era: classical
+author: Joseph Stewart
 ---
 
 ## Who was Pythagoras?
