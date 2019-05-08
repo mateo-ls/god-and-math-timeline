@@ -31,6 +31,7 @@ In order to download and build this project you will need to install the followi
 
 * [git](https://git-scm.com/downloads)
   * Used for downloading the project from GitHub
+  * While you do not _need_ to understand git to contribute, it might be helpful. You can check out [this](https://try.github.io/) link to learn more.
 * [Node](https://nodejs.org/en/download/)
   * Used for building the project so you can see it
 * [Atom](https://atom.io/)
@@ -195,7 +196,7 @@ Now that you've added your article, make sure that everything runs correctly and
 
 If everything works then awesome! You are ready to add it to the main project!
 
-### Creating a request to add your changes to the main project
+### Adding your changes to the repository
 [Back to top](#table-of-contents)
 
 If you do not have a github account, you must make one in order to create a pull request. Once you make a github account, follow the following steps
