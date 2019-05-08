@@ -4,9 +4,9 @@ subtitle: Plato
 date: 428 BC - 347 BC
 icon: FaCube
 heroUrl: https://res.cloudinary.com/josephdangerstewart/image/upload/v1555093629/god-and-math/plato.jpg
-who: Coming soon
-ontology: Coming soon
-theology: Coming soon
+who: A legendary greek philosopher who pioneered realism through his idea of the "forms"
+ontology: Math is self-existent, independent from mankind's actions
+theology: Math is connected to the divine, used to create the world
 era: classical
 ---
 
