@@ -12,7 +12,7 @@
      * [Formatting footnotes](#formatting-footnotes)
   * [Adding metadata](#adding-metadata)
   * [Rebuilding the project](#rebuilding-the-project)
-  * [Creating a request to add your changes to the main project](#creating-a-request-to-add-your-changes-to-the-main-project)
+  * [Adding your changes to the repository](#adding-your-changes-to-the-repository)
   
 
 ## Project description
