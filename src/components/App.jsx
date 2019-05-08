@@ -24,6 +24,7 @@ export default class App extends React.Component {
 		nextIndex: null,
 		toIntroSection: false,
 		viewLoaded: true,
+		author: '',
 	}
 
 	componentDidMount = () => {
@@ -35,7 +36,7 @@ export default class App extends React.Component {
 		);
 	}
 
-	openArticle = (content, heroUrl, heroTitle, previousIndex, nextIndex) => {
+	openArticle = (content, heroUrl, heroTitle, previousIndex, nextIndex, author) => {
 		this.setState({
 			content,
 			contentOpen: true,
@@ -43,6 +44,7 @@ export default class App extends React.Component {
 			heroTitle,
 			nextIndex,
 			previousIndex,
+			author,
 		}, () => {
 			if (this.contentContainer) {
 				this.contentContainer.scrollTo(0, 0);
@@ -53,8 +55,8 @@ export default class App extends React.Component {
 	navigateToArticle = direction => () => {
 		const index = this.state[`${direction}Index`];
 		if (timelineElements[index]) {
-			const { article, heroUrl, heroTitle } = timelineElements[index];
-			this.openArticle(article, heroUrl, heroTitle, index - 1, index + 1);
+			const { article, heroUrl, heroTitle, author } = timelineElements[index];
+			this.openArticle(article, heroUrl, heroTitle, index - 1, index + 1, author);
 		}
 	}
 
@@ -121,6 +123,7 @@ export default class App extends React.Component {
 			nextIndex,
 			viewLoaded,
 			toIntroSection,
+			author,
 		} = this.state;
 
 		return (
@@ -175,6 +178,7 @@ export default class App extends React.Component {
 								<Content
 									source={content}
 									heroUrl={heroUrl}
+									author={author}
 									heroTitle={heroTitle}
 									closeArticle={this.closeArticle}
 									onNextArticle={timelineElements[nextIndex] ? this.navigateToArticle('next') : null}

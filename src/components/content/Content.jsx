@@ -9,7 +9,7 @@ import styles from './styles.less';
 
 export default class Content extends React.Component {
 	render() {
-		const { source, heroTitle, heroUrl, closeArticle, onNextArticle, onPreviousArticle } = this.props;
+		const { source, heroTitle, heroUrl, closeArticle, onNextArticle, onPreviousArticle, author } = this.props;
 
 		return (
 			<div className={styles.root}>
@@ -36,6 +36,7 @@ export default class Content extends React.Component {
 						source={source}
 					/>
 				</div>
+				<p className={styles.articleAuthor}>Article by {author}</p>
 				<div className={styles.buttonContainer}>
 					{onPreviousArticle ?
 						<Button

@@ -25,6 +25,7 @@ export default class Timeline extends React.Component {
 		ontology,
 		theology,
 		era,
+		author,
 	}, index, array) => {
 		const { openArticle } = this.props;
 		return (
@@ -39,6 +40,7 @@ export default class Timeline extends React.Component {
 					heroTitle,
 					index - 1,
 					index + 1,
+					author
 				)}
 				className={styles.timelineElement}
 			>
