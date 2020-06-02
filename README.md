@@ -43,7 +43,7 @@ In order to download this project and see it, you are going to need to run some 
 
 1. Open Command Prompt if you are on Windows, or Terminal if you are on mac
 2. Type `cd Desktop` and press enter
-3. Type `git clone https://github.com/josephdangerstewart/god-and-math-timeline.git` and press enter
+3. Type `git clone https://github.com/mateo-ls/god-and-math-timeline.git` and press enter
 4. Type `cd god-and-math-timeline` and press enter
 5. Type `npm install` and press enter. This may take a minute to run
 6. Type `npm run build` and press enter.
