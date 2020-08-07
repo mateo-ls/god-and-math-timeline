@@ -12,8 +12,8 @@ export default class Description extends React.Component {
 			<div
 				className={styles.root}
 			>
-				<h1>A Historical Timeline of the Relationship of Theology and Mathematics</h1>
-				<h2>A integration seminar project by Joseph Stewart and Mark Nguyen</h2>
+				<h1>Matheology: A Historical Timeline of the Relationship between Mathematics and Theology</h1>
+				<h2>by Joseph Stewart, Mark Nguyen, and Mateo Langston Smith</h2>
 				<IconButton onClick={goToApp}>
 					<MdArrowDownward />
 				</IconButton>

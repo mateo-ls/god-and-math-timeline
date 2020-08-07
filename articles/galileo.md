@@ -1,6 +1,6 @@
 ---
 title: Math as the Authority for the Physical World
-subtitle: Galileo
+subtitle: Galileo Galilei
 date: 1564 AD - 1642 AD
 icon: GoTelescope
 heroUrl: https://res.cloudinary.com/josephdangerstewart/image/upload/v1557335937/god-and-math/galileo---mini-biography.jpg
