@@ -5,7 +5,7 @@ date: 3100 BC - 664 BC
 icon: FaScroll
 who: An ancient civilization famous for building pyramids, the earliest known papyrus containing math, and the false Solar Calendar.
 ontology: Math is the the order of the cosmos created by Ra in the goddess Ma'at.
-theology: Math was a tool to capture and utilize the power of the universe as a form worship.
+theology: Math was a tool to capture and utilize the power of the universe as a form of worship.
 era: ancient
 heroUrl: https://res.cloudinary.com/mateols/image/upload/v1596825146/pyramids-2371501_1280_kgqaho.jpg
 author: Nevin Slaughter

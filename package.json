@@ -1,7 +1,7 @@
 {
   "name": "god-and-math-timeline",
   "version": "1.0.0",
-  "description": "A n interactive timeline describing the historical relationship between Theology and Mathematics",
+  "description": "An interactive timeline describing the historical relationship between Theology and Mathematics",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "math",
     "timeline"
   ],
-  "author": "Joseph Stewart and Mark Nguyen",
+  "author": "Joseph Stewart, Mark Nguyen and Mateo Langston Smith",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.4.0",
