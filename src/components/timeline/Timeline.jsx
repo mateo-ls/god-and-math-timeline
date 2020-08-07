@@ -10,6 +10,7 @@ const eraColors = {
 	'modern': '#6A9CD2',
 	'scientific_revolution': '#CE5C6D',
 	'classical': '#F8DF89',
+	'ancient': '##CCFFCC'
 };
 
 export default class Timeline extends React.Component {
